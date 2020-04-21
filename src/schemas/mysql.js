@@ -71,6 +71,7 @@ function processObject (obj, options) {
       keys[i] = nkey
       id = keys[i]
       idType = typeof obj[keys[i]]
+      break // stop id discovering after finding the first one
     }
   }
 
